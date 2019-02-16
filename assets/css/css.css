@@ -68,14 +68,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px 20px 0px 20px;
     margin-left: 4px;
-}
+  }
 
   #linebreak {
     height: 1px;
     width: 95%;
     background: #cccccc;
     margin: 0 auto;
-}
+  }
 
   footer {
     position: fixed;
@@ -249,9 +249,6 @@ body {
   }
 
 
-
-
-
             /* >>>>> Contact Page Styles <<<<< */
 
 
@@ -292,3 +289,18 @@ body {
           width: 980px;
       }
   }
+
+  @media screen and (max-width: 768px) {
+      section {
+          width: 768px;
+          margin: 20px 10px 0 10px;
+      }
+  }
+
+  @media screen and (max-width: 640px) {
+      section {
+          width: 640px;
+          margin: 20px 10px 0 10px;
+      }
+  }
+
